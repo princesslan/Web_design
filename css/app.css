@@ -1,19 +1,41 @@
-
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Karma', serif;
+    background-color: white;
+}
+.header{
+    float:left;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.main{
+    float:left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin:auto;
+}
 .row{
-    float: left;
+    float:left;
+    width: 100%; /* 100% theo phan tu chua no */
 }
 .item{
-    float: left;
-    width: calc(25% - 20px);
+    float:left;
+    width: calc(25% - 20px);/* phai tinh toan lai de tong width + padding = 25% */
     padding:10px;
 }
 img{
     max-width: 100%;
 }
 .about{
-    float :left;
+    float:left;
     width: 100%;
     text-align: center;
+    border-top: 1px solid #cbc4c4; /* top right bottom left */
 }
 .about h3{
     font-size: 24px;
@@ -25,14 +47,14 @@ img{
     font-size: 16px;
 }
 .footer{
-    float: left;
+    float:left;
     width: 100%;
 }
-.footer .third{
+.footer  .third{
     float: left;
     width: 33.33%;
-   /* border-top: 1px solid #cbc4c4; */
+    border-top: 1px solid #cbc4c4;
 }
-.footer .h3{
+.footer h3{
     font-size: 24px;
 }
